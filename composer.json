@@ -1,0 +1,33 @@
+{
+  "name": "pno/file",
+  "type": "library",
+  "description": "Simple HTTP Files Adapted from Symfony HttpFoundation Component - I use for Wordpress",
+  "keywords": ["http","file", "wordpress", "symfony"],
+  "homepage": "https://github.com/penoonan",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pearl Noonan",
+      "homepage": "https://github.com/penoonan"
+    },
+    {
+      "name": "Fabien Potencier",
+      "email": "fabien@symfony.com"
+    },
+    {
+      "name": "Symfony Community",
+      "homepage": "https://symfony.com/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "pno/bag": "dev-master"
+  },
+  "autoload": {
+    "psr-4": { "pno\\File\\": "" },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "minimum-stability": "dev"
+}
